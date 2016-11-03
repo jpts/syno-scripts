@@ -4,7 +4,7 @@
 use strict;
 use warnings;
 
-use lib qw(/volume1/system/scripts/index/);
+use lib qw(/volume1/system/syno-scripts/);
 use Logging::Simple;
 
 my $log = Logging::Simple->new(name => 'FindOrphans', file => '/var/log/media-scripts.log', level => 7);                                                                                  
